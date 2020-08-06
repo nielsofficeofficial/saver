@@ -1,10 +1,13 @@
 <?php 
 
 
+ namespace Project_\crownPHPEXTEND\handler;
+
+
 /**
  * summary
  */
-class ChildApps extends App
+class ChildApp # extends App
 {
     /**
      * summary
@@ -13,4 +16,14 @@ class ChildApps extends App
     {
         print "ChildClass";
     }
+
+
+
+
+
+   
+
+  #  $name  = NEW Name();
+
+  
 }
