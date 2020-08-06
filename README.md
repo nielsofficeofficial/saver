@@ -1,7 +1,9 @@
 <h3>crownPHPEXTEND Coding convention saver/development file</h3>
 # usage: <br />
 # Download follow the folder structure bellow <br />
-crownPHPEXTEND v1.0 saver official Release <br />
+  crownPHPEXTEND v1.0 saver official Release <br />
+  @since August 08.2020 12:24AM Manila Philippines time zone
+  
 <pre>
 |- root                  => Project file  
  |- crownPHPEXTEND
