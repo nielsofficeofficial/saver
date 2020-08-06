@@ -12,8 +12,14 @@ class App
     public function __construct()
     {
         
-       print "Parent"; 
+       print "Parent <br />"; 
     }
+    
+    public function test_me() {
+    
+  	echo "ParentTest Application <br />";
+  
+  } 
 }
 
 // echo "root";

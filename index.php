@@ -1,7 +1,6 @@
 <?php 
 
-require_once 'crownPHPEXTEND/crownPHPEXTEND.v.1.0.php';
-
+ require_once 'crownPHPEXTEND/crownPHPEXTEND.v.1.0.php';
 
 $nohtml  = NEW  \adzProject\ADZFRAMEWORK\Html\Html();
 
@@ -29,6 +28,8 @@ $nohtml->_addLINE();
 
 
  $new = NEW \Project_\crownPHPEXTEND\handler\ChildApp();
+
+ $newApp = NEW \Project_\crownPHPEXTEND\root\App();
 
 
 
