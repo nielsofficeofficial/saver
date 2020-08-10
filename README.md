@@ -1,7 +1,7 @@
 <h3>crownPHPEXTEND Coding convention saver/development file</h3>
 # usage: <br />
 # Download follow the folder structure bellow <br />
-crownPHPEXTEND v1.0 saver<br />
+crownPHPEXTEND v1.1 saver<br />
 <pre>
 |- root                  => Project file  
  |- crownPHPEXTEND
