@@ -1,7 +1,7 @@
 <?php 
- namespace Project_\crownPHPEXTEND\handler; 
+ namespace Project_\crownPHPEXTEND\handler_; 
  
- use Project_\crownPHPEXTEND\abstra\MotherCLass as Application; 
+ use Project_\crownPHPEXTEND\abstract_\MotherCLass as Application; 
  use adzProject\ADZFRAMEWORK\Html\Html as NoHtml; 
 
 /**

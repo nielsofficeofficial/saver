@@ -1,8 +1,8 @@
 <?php 
  
- namespace Project_\crownPHPEXTEND\abstra;
+ namespace Project_\crownPHPEXTEND\abstract_;
 
- use Project_\crownPHPEXTEND\abstra\base\FatherClass as ProcessorClass;
+ use Project_\crownPHPEXTEND\abstract_\base\FatherClass as ProcessorClass;
  
 /**
  * summary MotheClass crownPHPEXTEND coding convention
@@ -16,7 +16,6 @@
  * - Car     extends MotherClass2  {}  // this assign collect/execute specification
  * - Motor   extends MotherClass3  {}  // This assign collect/execute attirbutes 
  * 
- *
  * This will set as Final Private, Protected 
  * For some reason Final Public can be also here
  * FatherClass restricky can be extend only by mother cpE code covention
@@ -60,13 +59,13 @@ class MotherCLass extends ProcessorClass
   use MyName;
 
   public function __construct()
-    {
+  {
        
        parent::__construct()."<br />"; 
        print "Hello I am a Mother <br />"; 
        $this->TraitName();
 
-    }
+  }
   
   // For ChildClass
   protected function MyMotherProtected() {
@@ -78,7 +77,6 @@ class MotherCLass extends ProcessorClass
   final public function MotherMethod() {
      
     return parent::FatherProtected(); 
-
     
   } 
 

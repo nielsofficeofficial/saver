@@ -1,6 +1,6 @@
 <?php 
  
- namespace Project_\crownPHPEXTEND\abstra\base;
+ namespace Project_\crownPHPEXTEND\abstract_\base;
 
 /**
  * summary
