@@ -17,7 +17,7 @@
  * absctract function start()
  * absctract function stop()
  * 
- * This Class assign for Final Private, Protected exclusively from crownHPEXTEND conding conversion
+ * This Class assign for Final Private, Protected exclusively from crownHPEXTEND conding convention
  * NOTE: Make sure the function cannot be executed from public only child can do that! 
  * 
  * Outside of cpE code convention link using abstract Reference more examples:
