@@ -3,7 +3,7 @@
 /**
  * summary view
  * saver v1.1
- * Is a collection of method that will use to executed and collect data from client side contains specially with HTML 
+ * Is a collection of method that will use to executed and collect data from client side which provide from ChildClass  contains specially with HTML 
  *
  */
 
