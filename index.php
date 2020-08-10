@@ -1,8 +1,24 @@
 <?php 
 
- require_once 'crownPHPEXTEND/crownPHPEXTEND.v.1.0.php';
+/**
+ * summary view
+ * saver v1.1
+ * Is a collection of method that will use to executed and collect data from client side contains specially with HTML 
+ *
+ */
 
-$nohtml  = NEW  \crownProject\crownPHPEXTEND\Html\Html();
+/**
+ * summary direct function 
+ * saver v1.1
+ * Is a chaining function that warpping all methods
+ *
+ */
+
+
+
+require_once 'crownPHPEXTEND/crownPHPEXTEND.v.1.0.php';
+
+$nohtml  = NEW  \adzProject\ADZFRAMEWORK\Html\Html();
 
 function my_htmattr() {
    
@@ -26,11 +42,11 @@ echo  $nohtml->H1("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','',
 $nohtml->_addLINE();
 
 
-
- $new = NEW \Project_\crownPHPEXTEND\handler\ChildApp();
-
- $newApp = NEW \Project_\crownPHPEXTEND\root\App();
+$new = NEW Project_\crownPHPEXTEND\handler\ChildApp();
 
 
 
+
+
+# Gud Luck! 
 

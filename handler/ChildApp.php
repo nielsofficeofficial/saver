@@ -1,15 +1,17 @@
 <?php 
-
-
  namespace Project_\crownPHPEXTEND\handler; 
  
- use Project_\crownPHPEXTEND\root\App as Application; 
- use crownProject\crownPHPEXTEND\Html\Html as NoHtml; 
+ use Project_\crownPHPEXTEND\abstra\MotherCLass as Application; 
+ use adzProject\ADZFRAMEWORK\Html\Html as NoHtml; 
 
 /**
- * summary
+ * summary Child
+ * saver v1.1
+ * childClass/inheritance method which set all to Final public called handler carry the burden between root and executor/view files.
+ * Obviously this is your Method from abstract and interface will be prepare before it will execute
+ *
  */
-class ChildApp extends Application
+class ChildApp  extends Application
 {
     /**
      * summary
@@ -18,21 +20,23 @@ class ChildApp extends Application
     {
   
 
-      print "ChildClass <br />";
+      print "ChildClass Handler <br />";
+
       $this->MadeMy_Day()."<br />";
 
-     $New = NEW NoHtml();
 
-     $New->H1("TITLE");
+      $New = NEW NoHtml();
+      $New->H1("TITLE Child");
+
+
        
     }
 
-  
   public function MadeMy_Day() {
    
    $New = NEW Application();
     
-   return $New->test_me();
+   return $New->MotherMethod();
 
   } 
 
