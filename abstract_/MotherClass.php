@@ -79,7 +79,15 @@ class MotherCLass extends ProcessorClass
     return parent::FatherProtected(); 
     
   } 
-
+  
+  // Also Private Method can be use
+  final private function MyMethod() {
+   
+   // My Private Method Goes Here..
+   
+  }
+  
+ 
 }
 
 // echo "root";
