@@ -89,5 +89,3 @@ class MotherCLass extends ProcessorClass
   
  
 }
-
-// echo "root";
