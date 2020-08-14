@@ -2,7 +2,7 @@
  namespace Project_\crownPHPEXTEND\handler_; 
  
  use Project_\crownPHPEXTEND\abstract_\MotherCLass as Application; 
- use adzProject\ADZFRAMEWORK\Html\Html as NoHtml; 
+ use crown\crownPHPEXTEND\Html\Html as NoHtml; 
 
 /**
  * summary Child
@@ -11,7 +11,7 @@
  * Obviously this is your Method from abstract and interface will be prepare before it will execute
  *
  */
-class ChildApp  extends Application
+class ChildApp  extends Application 
 {
     /**
      * summary
@@ -28,8 +28,8 @@ class ChildApp  extends Application
       $New = NEW NoHtml();
       $New->H1("TITLE Child");
 
+       print MyFunction("DF_WithinClass")."<br />";
 
-       
     }
 
   public function MadeMy_Day() {

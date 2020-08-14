@@ -3,7 +3,7 @@
 /**
  * summary view
  * saver v1.1
- * Is a collection of method that will use to executed and collect data from client side which provide from ChildClass  contains specially with HTML 
+ * Is a collection of method generate from child class that will use to executed and collect data from client side contains specially HTML 
  *
  */
 
@@ -14,11 +14,9 @@
  *
  */
 
-
-
 require_once 'crownPHPEXTEND/crownPHPEXTEND.v.1.0.php';
 
-$nohtml  = NEW  \adzProject\ADZFRAMEWORK\Html\Html();
+$nohtml  = NEW  \crown\crownPHPEXTEND\Html\Html();
 
 function my_htmattr() {
    
@@ -45,8 +43,7 @@ $nohtml->_addLINE();
 $new = NEW Project_\crownPHPEXTEND\handler_\ChildApp();
 
 
-
-
+echo MyFunction("Test DirectFunction");
 
 # Gud Luck! 
 
