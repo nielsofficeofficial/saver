@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 /**
  * summary view
@@ -15,4 +15,4 @@
  */
 
 
- Html::H2("WELCOM TO HOME PAGE!");
+ Html::H2("HELLO SECTION HEADER");
