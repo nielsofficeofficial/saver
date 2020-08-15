@@ -16,5 +16,5 @@
 function MyFunction($DirectFunction = null) {
 
 	return $DirectFunction;
-	
+
 }

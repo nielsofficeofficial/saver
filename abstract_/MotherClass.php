@@ -2,8 +2,8 @@
  
  namespace Project_\crownPHPEXTEND\abstract_;
 
- use Project_\crownPHPEXTEND\abstract_\base\FatherClass as ProcessorClass;
- 
+ use Project_\crownPHPEXTEND\abstract_\base\FatherClass as ProcessorClass;   
+
 /**
  * summary MotheClass crownPHPEXTEND coding convention
  * saver v1.1
@@ -37,7 +37,9 @@
       */
      public function TraitName()
      {
-        echo "Your Mother Trait!" ;
+        
+        echo "Your Mother Trait!";
+
      }
     
      // For Mother Private

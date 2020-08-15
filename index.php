@@ -30,18 +30,26 @@ function my_htmattr() {
  }
 
 // display via echo/print
-echo  $nohtml->H1("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_h1','FUNC_ASSOC'); // will show
+echo  html::H1("Heading 1",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_h1','FUNC_ASSOC'); // will show
 
-      $nohtml->H1("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_hIDE','FUNC_ASSOC'); // will NOT SHOW
+      html::H1("Heading 2",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_hIDE','FUNC_ASSOC'); // will NOT SHOW
 
       // NULL use outside of function 
-      $nohtml->H1("Sample_echo ",    my_htmattr(),'id_ECHO_DEFAULT','ADD_CLASS','NO_CLASS', NULL);  // will show 
+      html::H1("Heading 3",    my_htmattr(),'id_ECHO_DEFAULT','ADD_CLASS','NO_CLASS', NULL);  // will show 
 
-$nohtml->_addLINE();
+html::_addLINE();
 
+
+Html::H2("Hey 2!");
+
+
+html::_addLINE();
 
 $new = NEW Project_\crownPHPEXTEND\handler_\ChildApp();
 
+html::_addLINE();
+
+Html::H2($new->Title());
 
 echo MyFunction("Test DirectFunction");
 

@@ -32,13 +32,19 @@ class ChildApp  extends Application
 
     }
 
-  public function MadeMy_Day() {
+  final public function MadeMy_Day() {
    
    $New = NEW Application();
     
    return $New->MotherMethod();
 
   } 
+
+ final public function Title() {
+   
+   return "My Title";
+ }
+
 
 }  
  
