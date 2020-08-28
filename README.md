@@ -12,8 +12,10 @@ crownPHPEXTEND v1.0 saver<br />
    |- functions.php  => For direct function such attribute of class or anything.. 
  |- Folder 1
  |- Folder 2
+ |- etc..
  |- Index.php
  |- about.php
- |- portfolio.php   
+ |- portfolio.php
+ |- etc.php   
 </pre>  
    
