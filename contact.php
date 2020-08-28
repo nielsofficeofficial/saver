@@ -19,8 +19,6 @@
 ?>
 
 <?php 
- 
- set_view('My_label','about-section-header');
- 
- set_view('My_label','home');
+
+set_view('My_label','contact-slider');
 
