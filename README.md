@@ -10,5 +10,10 @@ crownPHPEXTEND v1.0 saver<br />
    |- handler_    => Project files all childClass/inheritance method which set all to Final public called handler carry the burden between root and executor/view files.
    |- view/executor      => Project folder all page/files that contains data for client side specially HTML. 
    |- functions.php  => For direct function such attribute of class or anything.. 
+ |- Folder 1
+ |- Folder 2
+ |- Index.php
+ |- about.php
+ |- portfolio.php   
 </pre>  
    
