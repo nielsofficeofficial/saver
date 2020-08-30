@@ -17,11 +17,11 @@ doSAVER());
 * @package Template: 
 * @since:  cpE v1.0 
 *--------------------------------------------------------------------------
-* PageName: Portfolio
+* PageName: Index
 * DateCreated: 21.08.2020
 * Project Name: Demo
 * Page Description: This is for saver demo page v1.2
-* Page Tags: corePHP page named porfolio
+* Page Tags: corePHP page named Index
 *
 **/
 
