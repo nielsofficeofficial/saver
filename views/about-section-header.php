@@ -16,4 +16,8 @@
 
 
  Html::H2("HELLO SECTION HEADER");
+
+// display via echo/print
+echo  html::H1("Sample_return ", "",'id_ECHO_TO_RETURN_ASSOC','XYZ','', FUNC_ASSOC); // will show
+
  
