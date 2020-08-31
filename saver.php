@@ -15,9 +15,10 @@
 *
 **/
 
-$router->map('GET','',  function() {
+$router->map('GET','/',  function() {
 
- // Your saver index      
+ // Your saver index 
+ echo "Welcome to SAVER - HAV";     
 
 }, '' );
 
@@ -27,5 +28,6 @@ $router->map('GET','/about',  function() {
  
   set_view('My_label','home');
 
-} , 'about');
+
+}, 'about');
 
